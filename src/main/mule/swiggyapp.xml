@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="swiggyappFlow" doc:id="7a9acec9-f1f8-4ccc-810f-4de2a11e2a49" >
+		<logger level="INFO" doc:name="Logger" doc:id="330a9e4e-c496-45d2-8e64-8d0a04a6d152" />
+	</flow>
+</mule>
